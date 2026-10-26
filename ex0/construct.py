@@ -21,7 +21,7 @@ def in_venv() -> None:
           "SUCCESS: You are working in an isolated environment!\n"
           "Safe to install reagents without affecting the global system.\n\n"
           "Reagent installation path:\n"
-          "site.getsitepackages()[0]")
+          "site.getsitepackages()[0]") # check on linux
 
 
 
