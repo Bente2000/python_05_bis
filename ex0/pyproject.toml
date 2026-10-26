@@ -1,0 +1,12 @@
+# setting for the tool called poetry
+[tool.poetry] # extends or overrides
+name = "package-name"
+version = "0.1.0" # conventional starting value for package-name
+description = "Exercise 0: The Sealed Laboratory"
+authors = ["bede-kon <bede-kon@student.codam.nl"]
+package-mode = false # just managing dependencies not building a package
+
+[tool.poetry.dependencies] # package dependencies
+python = ">=3.10,<4.0"
+pandas = ">=2.1.0"
+numpy = ">=1.25.0"
