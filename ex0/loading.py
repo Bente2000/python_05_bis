@@ -27,4 +27,9 @@ def check_dependencies() -> None:
 if __name__ == "__main__":
     print("REAGENT STATUS: Loading reagents...\n\nChecking dependencies:")
     check_dependencies()
+    print("\npip vs Poetry\n"
+          "requirements.txt declares what to install; pip resolves it at"
+          " install time.\n"
+          "pyproject.toml declares the same constraints, Poetry pins the "
+          "resolved versions in poetry.lock so every install is identical.")
 
